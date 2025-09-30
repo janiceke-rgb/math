@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>間隔問題挑戰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="main-title">間隔問題挑戰</h1>
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">問題載入中...</h2>
+            
+            <pre class="image-container" id="image-container"></pre>
+
+            <div class="hint-container" id="hint-container">
+                <strong>💡 提示：</strong><span id="hint_text"></span>
+            </div>
+            <ul>
+                <li><label for="a" id="a_label"><input type="radio" name="answer" id="a" class="answer"> <span id="a_text">選項 A</span></label></li>
+                <li><label for="b" id="b_label"><input type="radio" name="answer" id="b" class="answer"> <span id="b_text">選項 B</span></label></li>
+                <li><label for="c" id="c_label"><input type="radio" name="answer" id="c" class="answer"> <span id="c_text">選項 C</span></label></li>
+                <li><label for="d" id="d_label"><input type="radio" name="answer" id="d" class="answer"> <span id="d_text">選項 D</span></label></li>
+            </ul>
+        </div>
+        <div id="feedback-container" class="feedback-container"></div>
+        <button id="submit">送出答案</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
