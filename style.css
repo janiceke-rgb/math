@@ -31,6 +31,7 @@ body {
 .quiz-header { padding: 2rem 4rem; }
 h2 { padding: 1rem; text-align: center; margin: 0; }
 
+/* 提示訊息的樣式 */
 .hint-container {
     font-size: 0.9rem;
     color: #555;
@@ -58,6 +59,7 @@ ul li label:hover {
     background-color: #f0f0f0;
 }
 
+/* 答對(綠色)和答錯(紅色)選項的樣式 */
 .correct {
     background-color: #e7f6e7;
     border-color: #5cb85c;
@@ -67,6 +69,7 @@ ul li label:hover {
     border-color: #d9534f;
 }
 
+/* 回饋訊息的樣式 */
 .feedback-container {
     padding: 0 4rem 1rem 4rem;
     font-size: 1.1rem;
@@ -88,5 +91,6 @@ button {
     transition: background-color 0.3s;
 }
 button:hover { background-color: #0056b3; }
+/* 「下一題」按鈕的樣式 */
 button.next { background-color: #5cb85c; }
 button.next:hover { background-color: #4cae4c; }
